@@ -1,0 +1,13 @@
+ODBC CONNECT32 TO [mapiprod;DBQ=mapiprod] (XUserId is dACFPVFMEDbeWZBOJbceFRNMEE, XPassword is fYeddYFN);
+
+Orders:
+LOAD "KIERUNEK_KOSZTOW",
+    DZIEN,
+    Day(DZIEN) as Day,
+    Year(DZIEN) as Year,
+    Month(DZIEN) as Month,
+    "ILOSC_POSILKOW";
+SQL SELECT *
+FROM "JADLOSPIS_BC"."NAP_QLIK_ORDERS";
+
+Trace koniec;
