@@ -1,9 +1,8 @@
 # mapi_orders_qlikview
 qlikview
 
+Login to web: https://qlikid.qlik.com/#/signin ClaudeP.. / BeiReszta
 
-
-Login to web: https://qlikid.qlik.com/#/signin
 Download http://demo.qlik.com/download -> QlikViewDesktop_x64Setup.exe -> version: 12.50.200000
 
 # Connect ot server: 
